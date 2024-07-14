@@ -1,12 +1,13 @@
 import "./App.css";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import MainRoutes from "./Routes.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello world</h1>
-      </header>
-    </div>
+    <BrowserRouter className="App">
+      <MainRoutes />
+    </BrowserRouter>
   );
 }
 

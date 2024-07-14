@@ -1,3 +1,57 @@
-.App {
-  text-align: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+
+  border-radius: 5px;
+  background-color: white;
+
+  h1 {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  input {
+    padding: 10px;
+    height: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+
+  input:hover {
+    border: 1px solid darkcyan;
+  }
+  input:focus {
+    outline: 1px solid darkcyan;
+  }
+
+  button {
+    height: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    background-color: darkcyan;
+    color: white;
+
+    border: none;
+  }
+
+  button:hover {
+    background-color: rgb(0, 65, 65);
+  }
+
+  .link {
+    text-decoration: none;
+    margin: auto;
+    color: darkcyan;
+  }
+
+  .link:hover {
+    color: rgb(0, 63, 63);
+  }
 }
