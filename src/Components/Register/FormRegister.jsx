@@ -11,7 +11,11 @@ const FormRegister = () => {
         <label htmlFor="email">E-mail</label>
         <input placeholder="insert your e-mail" className="email" />
         <label htmlFor="password">Password</label>
-        <input placeholder="insert your password" className="email" />
+        <input
+          type="password"
+          placeholder="insert your password"
+          className="email"
+        />
         <button type="submit">Register</button>
         <Link className="link" to="/">
           Already have an account?

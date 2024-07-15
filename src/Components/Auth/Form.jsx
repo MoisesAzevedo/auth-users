@@ -9,7 +9,11 @@ const Form = () => {
         <label htmlFor="email">E-mail</label>
         <input placeholder="insert your e-mail" className="email" />
         <label htmlFor="password">Password</label>
-        <input placeholder="insert your password" className="email" />
+        <input
+          type="password"
+          placeholder="insert your password"
+          className="email"
+        />
         <button type="submit">Login</button>
         <Link className="link" to="/sign-up">
           No have an account?
